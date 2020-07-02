@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+#header {
+	width: 100%;
+	text-align: center;
+	font-size: 2em;
+	color: white;
+	background-color: black;
+	font-family: Arial, sans-serif;
+}
+#menu {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+#sort {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#footer {
+	width: 100%;
+	text-align: center;
+	font-size: 2em;
+	color: white;
+	background-color: black;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+#list {
+	display: flex;
+	width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+img {
+    width: 30%;
+    margin-right: 20px;
+}
+
+.movie {
+    color: white;
+    display: flex;
+    margin: 20px 20px 20px 0;
+    width: 45%;
+    background-color: #333;
+    padding: 10px;
+    flex: 1 1 auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.name {
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: .7em;
+}
+
+.likes {
+    margin-top: auto;
+    align-self: flex-end;
+}
+
+.likes-button {
+    background-color: transparent;
+    border: none;
+    color: green;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.likes-button:focus {
+    outline: none;
+}
+
+.likes-button > img {
+    width: 30px;
+    position: relative;
+    top: 9px;
+    margin-right: 0;
+}
+
+.likes-number {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    padding: 10px;
+    display: inline-block;
+    background-color: green;
+}
